@@ -9,3 +9,6 @@
     <title>Home - Ismail Bourbie</title>
 </head>
 <body>
+    <div class="container mx-auto">
+
+<?php include 'navbar.php'; ?>
