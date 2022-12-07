@@ -2,7 +2,28 @@
 module.exports = {
   content: ["./src/views/**/*.{html,php}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'body': ['Poppins', 'sans-serif'],
+      },
+      colors: {
+        'main': '#303179',
+        'black': '#141850',
+        'slate': {
+          500: '#141850'
+        },
+        'zinc': {
+          600: '#5F5F5F'
+        },
+        'yellow': {
+          100: '#fae5df'
+        },
+        'orange': {
+          600: '#ed7966'
+        }
+
+      },
+    }
   },
   plugins: [],
 }
