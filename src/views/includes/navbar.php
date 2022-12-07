@@ -12,25 +12,47 @@
             <img src="/images/icons/contact.svg" alt="contact" class="inline mr-1"> <span class="hidden md:inline text-lg tracking-wide">Say Hello</span>
         </div>
     </div>
-    <div id="menu" class="fixed transform -translate-y-full transition duration-500 inset-0 z-40 bg-red-200 pt-20 pb-4">
-        <div class="flex items-center h-full flex-col">
-            <div class="flex flex-col basis-full justify-around">
-                <ul class="text-center">
-                    <li class="text-6xl my-6 font-bold"><a href="#">Home</a></li>
-                    <li class="text-6xl my-6 font-bold"><a href="#">Profile</a></li>
-                    <li class="text-6xl my-6 font-bold"><a href="#">About</a></li>
-                    <li class="text-6xl my-6 font-bold"><a href="#">Contacts</a></li>
-                </ul>
-                <ul class="flex flex-row justify-evenly">
-                    <li><a class="menuItem" href="#">H</a></li>
-                    <li><a class="menuItem" href="#">F</a></li>
-                    <li><a class="menuItem" href="#">D</a></li>
-                    <li><a class="menuItem" href="#">G</a></li>
-                </ul>
+    <div id="menu" class="fixed transform -translate-y-full transition duration-500 inset-0 z-40 bg-red-200 pt-8 md:pt-20 pb-4">
+        <div class="container mx-auto h-full">
+            <div class="flex flex-col justify-between h-full">
+                <div class="flex flex-1 flex-col md:flex-row w-full px-6 md:px-20">
+                    <ul class="flex flex-col flex-1 justify-evenly md:justify-around text-center md:text-left">
+                        <li class="text-6xl font-bold"><a href="#">Home</a></li>
+                        <li class="text-6xl font-bold"><a href="#">Profile</a></li>
+                        <li class="text-6xl font-bold"><a href="#">About</a></li>
+                        <li class="text-6xl font-bold"><a href="#">Contacts</a></li>
+                    </ul>
+                    <ul class="flex flex-row md:flex-col justify-between items-center md:py-40 ">
+                        <li class="">
+                            <a class="menuItem" href="#">
+                                <img src="/images/icons/twitter.svg" alt="twitter">
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="menuItem" href="#">
+                                <img src="/images/icons/instagram.svg" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="menuItem" href="#">
+                                <img src="/images/icons/github.svg" alt="github">
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="menuItem" href="#">
+                                <img src="/images/icons/linkedin.svg" alt="linkedin">
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="menuItem" href="#">
+                                <img src="/images/icons/mail.svg" alt="mail">
+                            </a>
+                        </li>
+                    </ul>
 
+                </div>
+                <p class="translate-y-0 text-center border-t border-slate-500 py-2 md:py-5 w-11/12 md:w-10/12 mx-auto mt-8">© Ismail Bourbie 2022. All Rights Reserved.</p>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
         </div>
-
     </div>
 </nav>
