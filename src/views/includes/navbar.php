@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }">
+<nav x-data="{ open: false }" class="absolute w-full">
     <div class="relative flex justify-between items-center px-6 py-4 z-50">
         <button class="text-gray-500 w-10 h-10 relative focus:outline-none" @click="open = !open">
             <span class="sr-only">Open main menu</span>
@@ -51,7 +51,7 @@
                     </ul>
 
                 </div>
-                <p class="translate-y-0 text-center border-t border-main text-main py-2 lg:py-5 w-11/12 lg:w-10/12 mx-auto mt-8" x-show="open" x-transition:enter.delay.300ms>© Ismail Bourbie 2022. All Rights Reserved.</p>
+                <p class="text-center text-sm border-t border-main text-main py-2 lg:py-5 w-11/12 lg:w-10/12 mx-auto mt-8" x-show="open" x-transition:enter.delay.300ms>© Ismail Bourbie 2022. All Rights Reserved.</p>
             </div>
         </div>
     </div>

@@ -14,6 +14,6 @@
 </head>
 
 <body class="font-body">
-    <div class="container mx-auto">
+    <div class="container mx-auto flex flex-col h-screen relative">
 
         <?php include 'navbar.php'; ?>
