@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         'body': ['Poppins', 'sans-serif'],
       },
+      backgroundImage: {
+        'dot-pattern': 'radial-gradient(#ed7966 1.5px, transparent 0)',
+      },
       colors: {
         'main': '#303179',
         'black': '#141850',
