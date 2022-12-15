@@ -7,7 +7,7 @@
             I’m a <span class="font-bold">software engineer</span> specializing in building
             (and occasionally <span class="font-bold">designing</span>) exceptional digital experiences. Currently, I’m focused on building <span class="font-bold">websites</span> with a love for <span class="border-b-2 border-dotted border-red-500">Laravel</span>, <span class="border-b-2 border-dotted border-green-400">Vue</span> + <span class="border-b-2 border-dotted border-sky-500">Taiwlind</span>.
         </p>
-        <a href="#" class="border border-orange-600 bg-white text-sm text-orange-600 tracking-wider py-2 px-5 rounded-md hover:bg-yellow-100 transition duration-300 ease-in-out">Find more about me!</a>
+        <a href="/about" class="border border-orange-600 bg-white text-sm text-orange-600 tracking-wider py-2 px-5 rounded-md hover:bg-yellow-100 transition duration-300 ease-in-out">Find more about me!</a>
     </div>
 
 </div>
