@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^$ dist/ [L]
+
+RewriteRule (.*) dist/$1 [L]
