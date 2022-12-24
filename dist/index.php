@@ -9,7 +9,7 @@ $views_dir = dirname(__DIR__) . '/src/views/';
 
 
 if (key_exists($uri, $routes)) {
-    $view = $views_dir  . $routes[$uri];
+    $view = $views_dir . $routes[$uri];
     if (!is_readable($view))
         require_once($views_dir  . "500.php");
     else
