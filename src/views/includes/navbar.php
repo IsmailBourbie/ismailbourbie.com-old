@@ -45,13 +45,13 @@
                         </li>
                         <li class="lg:my-5" x-show="open" x-transition:enter.delay.300ms.duration.1900ms>
                             <a class="menuItem" href="#">
-                                <img src="/images/icons/mail.svg" alt="mail">
+                                <img src="/images/icons/mail.svg" alt="mail" width="30px">
                             </a>
                         </li>
                     </ul>
 
                 </div>
-                <p class="text-center text-sm border-t border-main text-main py-2 lg:py-5 w-11/12 lg:w-10/12 mx-auto mt-8" x-show="open" x-transition:enter.delay.300ms>© Ismail Bourbie 2022. All Rights Reserved.</p>
+                <p class="text-center text-sm border-t border-main text-main py-2 lg:py-5 w-11/12 lg:w-10/12 mx-auto mt-8" x-show="open" x-transition:enter.delay.300ms>© Ismail Bourbie <span x-text="new Date().getFullYear()"></span>. All Rights Reserved.</p>
             </div>
         </div>
     </div>
