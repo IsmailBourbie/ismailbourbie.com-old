@@ -1238,8 +1238,8 @@ video {
   background-color: rgb(250 229 223 / var(--tw-bg-opacity));
 }
 
-.hover\:opacity-60:hover {
-  opacity: 0.6;
+.hover\:opacity-75:hover {
+  opacity: 0.75;
 }
 
 .focus\:outline-none:focus {

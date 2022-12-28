@@ -6,7 +6,7 @@
             <ul class="lg:pr-6 w-full lg:w-auto lg:max-h-[410px] overflow-y-scroll" @mouseleave="hideProject()">
                 <template x-for="(project, index) in projects">
                     <li class="mb-10 border-b border-main lg:border-none">
-                        <a href="#" @mouseenter="showProject(index)" class="hover:opacity-60">
+                        <a href="#" @mouseenter="showProject(index)" class="transition duration-500 ease-in-out hover:opacity-75">
                             <h2 class="text-3xl lg:text-2xl xl:text-3xl font-bold text-main tracking-wider" x-text="project.title"></h2>
                             <div class="flex justify-between items-center">
                                 <span class="text-orange-600 text-sm" x-text="project.tag"></span>
@@ -38,50 +38,5 @@
         </div>
     </div>
 </div>
-<script>
-    function work() {
-        return {
-            'projects': [{
-                    title: "Younes Portfolio",
-                    tag: 'Portfolio',
-                    date: 'Sep 2022',
-                    image: 'younes-portfolio.png'
-                },
-                {
-                    title: "Drudz",
-                    tag: 'Health',
-                    date: 'Jun 2022',
-                    image: 'drudz.png'
-                },
-                {
-                    title: "Jami3aty",
-                    tag: 'Management',
-                    date: 'May 2018',
-                    image: 'younes-portfolio.png'
-                },
-                {
-                    title: "Online Shop",
-                    tag: 'E-commerce',
-                    date: 'Feb 2023',
-                    image: 'online-shop.png'
-                },
-                {
-                    title: "Tic-Tac-Toe",
-                    tag: 'Game',
-                    date: 'Ap 2018',
-                    image: 'tic-tac-toe.png'
-                },
-            ],
-            selectedProjectImage: null,
-            baseImageUrl: '/images/projects/',
-            showProject(index) {
-                this.selectedProjectImage = this.projects[index].image;
-                console.log(this.selectedProjectImage);
-            },
-            hideProject() {
-                this.selectedProjectImage = null;
-            }
-        }
-    }
-</script>
+<script src="/js/work.js"></script>
 <?php include 'includes/footer.php'; ?>
