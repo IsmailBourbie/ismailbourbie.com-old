@@ -9,14 +9,14 @@
         </div>
         <div class="lg:mx-6 xl:mx-9 xl:mr-36">
             <h1 class="flex items-center mb-4 text-sm font-bold text-orange-600 tracking-widest after:flex-1 after:ml-2 after:h-[1px] after:w-44 after:bg-gray-300">A BIT ABOUT ME</h1>
-            <p class="my-2 tracking-wider text-slate-500">
-                Hello! My name is Ismail and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+            <p class="my-4 tracking-wider text-slate-500">
+                Hello! My name is Ismail, I'm a software engineer post-graduate, with 5+ years of experience in a wide range of Web Development.
             </p>
-            <p class="my-2 tracking-wider text-slate-500">
-                I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.
+            <p class="my-4 tracking-wider text-slate-500">
+                I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!
             </p>
-            <p class="my-2 tracking-wider text-slate-500">
-                Here are a few technologies I’ve been working with recently:
+            <p class="my-4 tracking-wider text-slate-500">
+            recently i started working with some awesome tools:
             </p>
             <ul class="pt-2 pb-4 md:pb-0 flex flex-row flex-wrap" x-data="{technologies: ['PHP', 'Javascript', 'Tailwindcss', 'Laravel', 'Vue.js', 'Alpine.js']}">
                 <template x-for="tech in technologies">
