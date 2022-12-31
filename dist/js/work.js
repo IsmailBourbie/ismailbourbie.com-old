@@ -1,7 +1,7 @@
 function work() {
     return {
         'projects': [{
-                title: "Younes Portfolio",
+                title: "Younes Website",
                 tag: 'Portfolio',
                 date: 'Sep 2022',
                 image: 'younes-portfolio.png'
@@ -13,10 +13,10 @@ function work() {
                 image: 'drudz.png'
             },
             {
-                title: "Jami3aty",
-                tag: 'Management',
-                date: 'May 2018',
-                image: 'younes-portfolio.png'
+                title: "Personal Website",
+                tag: 'Portfolio',
+                date: 'Aug 2021',
+                image: 'personal-website.png'
             },
             {
                 title: "Online Shop",
@@ -27,15 +27,26 @@ function work() {
             {
                 title: "Tic-Tac-Toe",
                 tag: 'Game',
-                date: 'Ap 2018',
+                date: 'Apr 2018',
                 image: 'tic-tac-toe.png'
+            },
+            {
+                title: "Covid19Test",
+                tag: 'Health',
+                date: 'Apr 2020',
+                image: 'covid19test.png'
+            },
+            {
+                title: "Uik-Library",
+                tag: 'University',
+                date: 'Jul 2019',
+                image: 'uiklibrary.png'
             },
         ],
         selectedProjectImage: null,
         baseImageUrl: '/images/projects/',
         showProject(index) {
             this.selectedProjectImage = this.projects[index].image;
-            console.log(this.selectedProjectImage);
         },
         hideProject() {
             this.selectedProjectImage = null;
