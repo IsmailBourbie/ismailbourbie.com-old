@@ -6,7 +6,7 @@
             <ul class="lg:pr-6 w-full lg:w-auto lg:max-h-[500px] overflow-y-scroll" @mouseleave="hideProject()">
                 <template x-for="(project, index) in projects">
                     <li class="mb-10 border-b border-main lg:border-none">
-                        <a href="#" @mouseenter="showProject(index)" class="transition duration-500 ease-in-out hover:opacity-75">
+                        <a :href="project.link" target="_blank" @mouseenter="showProject(index)" class="transition duration-500 ease-in-out hover:opacity-75">
                             <h2 class="text-3xl lg:text-2xl xl:text-3xl font-bold text-main tracking-wider" x-text="project.title"></h2>
                             <div class="flex justify-between items-center">
                                 <span class="text-orange-600 text-sm" x-text="project.tag"></span>
