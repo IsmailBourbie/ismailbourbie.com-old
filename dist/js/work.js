@@ -47,7 +47,7 @@ function work() {
                 tag: 'University',
                 date: 'Jul 2019',
                 image: 'uiklibrary.png',
-                link: 'https://github.com/uiklibrary/uiklibrary.github.io'
+                link: 'https://github.com/IsmailBourbie/uiklibrary'
             },
         ],
         selectedProjectImage: null,
