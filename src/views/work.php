@@ -3,7 +3,7 @@
     <div class="w-11/12 mx-auto flex flex-col justify-center min-h-full" x-data="work()">
         <h1 class="flex items-center mb-6 2xl:mb-20 text-sm font-bold text-orange-600 tracking-widest after:flex-1 after:ml-2 after:h-[1px] after:w-44 after:bg-gray-400">awesome things I've built</h1>
         <div class="py-8 flex">
-            <ul class="lg:pr-6 w-full lg:w-auto lg:max-h-[500px] overflow-y-scroll" @mouseleave="hideProject()">
+            <ul class="lg:pr-6 w-full lg:w-auto lg:max-h-[500px] overflow-y-scroll scrollbar" @mouseleave="hideProject()">
                 <template x-for="(project, index) in projects">
                     <li class="mb-10 border-b border-main lg:border-none">
                         <a :href="project.link" target="_blank" @mouseenter="showProject(index)" class="transition duration-500 ease-in-out hover:opacity-75">
