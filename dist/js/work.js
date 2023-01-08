@@ -22,11 +22,11 @@ function work() {
                 link: 'https://github.com/ismailBourbie/portfolio'
             },
             {
-                title: "Online Shop",
-                tag: 'E-commerce',
-                date: 'Feb 2023',
-                image: 'online-shop.png',
-                link: 'https://github.com/ismailBourbie/online-shop'
+                title: "Jami3aty",
+                tag: 'Management',
+                date: 'May 2018',
+                image: 'jami3aty.png',
+                link: 'https://github.com/ismailBourbie/jami3aty'
             },
             {
                 title: "Tic-Tac-Toe",
