@@ -5,6 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A software engineer, with 5+ years of experience in a wide range of Web Development.">
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ismail Bourbie" />
+    <meta property="og:description" content="A software engineer, with 5+ years of experience in a wide range of Web Development." />
+    <meta property="og:url" content="https://ismailbourbie.com/" />
+    <meta property="og:site_name" content="Ismail Bourbie" />
+            <meta property="og:image" content="http://ismailbourbie.com/images/browser.svg" />
+    
+    <meta name="twitter:description" content="A software engineer, with 5+ years of experience in a wide range of Web Development." />
+    <meta name="twitter:title" content="Ismail Bourbie" />
+    <meta name="twitter:site" content="@IsmailBourbie" />
+            <meta name="twitter:card" content="summary" />
+        <meta property="twitter:image" content="http://ismailbourbie.com/images/browser.svg" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
