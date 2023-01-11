@@ -8,9 +8,10 @@
                 <span aria-hidden="true" class="block absolute  h-0.5 w-5 bg-black transform  transition duration-500 ease-in-out" :class="{'-rotate-45': open, ' translate-y-1.5': !open}"></span>
             </div>
         </button>
-        <div class="flex items-center">
-            <img src="/images/icons/contact.svg" alt="contact" class="inline mr-1"> <span class="hidden lg:inline text-lg text-black tracking-wide">Say Hello</span>
-        </div>
+        <a href="mailto:bourbieismail@gmail.com?subject=Hi Ismail, I'd like to hire you" class="flex items-center">
+            <img src="/images/icons/contact.svg" alt="contact" class="inline mr-1">
+            <span class="hidden lg:inline text-lg text-black tracking-wide">Say Hello</span>
+        </a>
     </div>
     <div class="fixed transform transition duration-500 inset-0 z-40 -translate-y-full bg-yellow-100 border-8 border-white pt-8 lg:pt-20 pb-4" :class="{'translate-y-0': open}">
         <div class="container mx-auto h-full">
