@@ -5,7 +5,7 @@
         <div class="my-6 inline-block mx-auto relative
                     after:absolute after:-right-2 after:-top-2 after:-z-10 after:w-20 after:h-20 after:border-t-2 after:border-r-2 after:border-orange-600
                     before:absolute before:-left-5 before:-bottom-5 before:-z-10 before:w-52 before:h-64 before:bg-main">
-            <img class="max-w-lg after:border-red-600" src="https://via.placeholder.com/270x380" width="270" height="380" alt="just a selfie">
+            <img class="max-w-lg after:border-red-600" src="/images/picture.webp" width="270" height="380" alt="just a selfie">
         </div>
         <div class="lg:mx-6 xl:mx-9 xl:mr-36">
             <h1 class="flex items-center mb-4 text-sm font-bold text-orange-600 tracking-widest after:flex-1 after:ml-2 after:h-[1px] after:w-44 after:bg-gray-300">A BIT ABOUT ME</h1>
