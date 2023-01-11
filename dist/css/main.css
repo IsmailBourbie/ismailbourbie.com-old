@@ -706,6 +706,10 @@ video {
   min-height: 100%;
 }
 
+.min-h-\[318px\] {
+  min-height: 318px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1262,6 +1266,10 @@ video {
 .hover\:bg-yellow-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(250 229 223 / var(--tw-bg-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 .hover\:opacity-75:hover {

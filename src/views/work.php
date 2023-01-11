@@ -19,12 +19,12 @@
             <div class="flex-1 hidden lg:block">
                 <div class="flex flex-col justify-center h-full max-w-[620px] lg:w-11/12 xl:w-10/12 ml-auto xl:mx-auto drop-shadow-2xl">
                     <img src="/images/browser.svg" alt="browser-mockup" srcset="">
-                    <div class="w-full bg-yellow-100 basis-full max-h-80 border border-black relative">
+                    <div class="w-full bg-yellow-100 basis-full max-h-80 min-h-[318px] border border-black relative">
                         <template x-if="selectedProjectImage == null">
                             <div class="flex flex-col justify-center items-center h-full">
                                 <h2 class="text-main text-2xl font-bold">Let's build something better.</h2>
                                 <p class="px-8 mt-5 text-center">
-                                    I strongly believe that designers and developers have a responsibility to make sure that what we are building does no harm and I try to be as ethical as I can in taking on projects.
+                                I've worked on a number of side projects over the years. This is a non-comprehensive list of most of them that I can recall. You can find more open source projects on <a href="https://github.com/IsmailBourbie?tab=repositories" target="_blank" class="font-bold text-black hover:underline">GitHub.</a>
                                 </p>
                             </div>
                         </template>
