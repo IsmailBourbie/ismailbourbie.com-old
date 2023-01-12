@@ -18,10 +18,10 @@
             <div class="flex flex-col justify-between h-full">
                 <div class="flex flex-1 flex-col lg:flex-row w-full px-6 lg:px-20">
                     <ul class="flex flex-col flex-1 justify-evenly text-center lg:text-left">
-                        <li class="text-6xl font-bold text-orange-600" x-show="open" x-transition:enter.delay.300ms.duration.800ms><a href="/home">Home</a></li>
-                        <li class="text-6xl font-bold text-orange-600" x-show="open" x-transition:enter.delay.300ms.duration.1100ms><a href="/about">About</a></li>
-                        <li class="text-6xl font-bold text-orange-600" x-show="open" x-transition:enter.delay.300ms.duration.1300ms><a href="/work">Work</a></li>
-                        <li class="text-6xl font-bold text-orange-600" x-show="open" x-transition:enter.delay.300ms.duration.1600ms><a href="/contact">Contact</a></li>
+                        <li class="text-6xl font-bold text-orange-600" x-show="open" x-transition:enter.delay.300ms.duration.800ms><a href="/" class="hover:text-black transform transition duration-500 ease-in-out">Home</a></li>
+                        <li class="text-6xl font-bold text-orange-600" x-show="open" x-transition:enter.delay.300ms.duration.1100ms><a href="/about" class="hover:text-black transform transition duration-500 ease-in-out">About</a></li>
+                        <li class="text-6xl font-bold text-orange-600" x-show="open" x-transition:enter.delay.300ms.duration.1300ms><a href="/work" class="hover:text-black transform transition duration-500 ease-in-out">Work</a></li>
+                        <li class="text-6xl font-bold text-orange-600" x-show="open" x-transition:enter.delay.300ms.duration.1600ms><a href="/contact" class="hover:text-black transform transition duration-500 ease-in-out">Contact</a></li>
                     </ul>
                     <ul class="flex flex-row lg:flex-col justify-between lg:justify-center items-center ">
                         <li class="lg:my-5" x-show="open" x-transition:enter.delay.300ms.duration.800ms>
