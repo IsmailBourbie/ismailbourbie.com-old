@@ -25,30 +25,25 @@
                     </ul>
                     <ul class="flex flex-row lg:flex-col justify-between lg:justify-center items-center ">
                         <li class="lg:my-5" x-show="open" x-transition:enter.delay.300ms.duration.800ms>
-                            <a class="menuItem" href="#">
+                            <a href="https://twitter.com/ismailbourbie">
                                 <img src="/images/icons/twitter.svg" alt="twitter">
                             </a>
                         </li>
                         <li class="lg:my-5" x-show="open" x-transition:enter.delay.300ms.duration.1100ms>
-                            <a class="menuItem" href="#">
+                            <a href="https://www.instagram.com/_ismailbourbie/">
                                 <img src="/images/icons/instagram.svg" alt="instagram">
                             </a>
                         </li>
                         <li class="lg:my-5" x-show="open" x-transition:enter.delay.300ms.duration.1300ms>
-                            <a class="menuItem" href="#">
+                            <a href="https://github.com/ismailBourbie/">
                                 <img src="/images/icons/github.svg" alt="github">
                             </a>
                         </li>
                         <li class="lg:my-5" x-show="open" x-transition:enter.delay.300ms.duration.1600ms>
-                            <a class="menuItem" href="#">
+                            <a href="https://www.linkedin.com/in/ismailbourbie/">
                                 <img src="/images/icons/linkedin.svg" alt="linkedin">
                             </a>
-                        </li>
-                        <li class="lg:my-5" x-show="open" x-transition:enter.delay.300ms.duration.1900ms>
-                            <a class="menuItem" href="#">
-                                <img src="/images/icons/mail.svg" alt="mail" width="30px">
-                            </a>
-                        </li>
+                        </li>                        
                     </ul>
 
                 </div>
