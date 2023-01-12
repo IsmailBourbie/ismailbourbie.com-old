@@ -26,7 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <title>Home - Ismail Bourbie</title>
+    <title><?= $title ?></title>
 </head>
 
 <body class="font-body">
