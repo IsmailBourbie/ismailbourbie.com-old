@@ -13,13 +13,13 @@
     <meta property="og:description" content="A software engineer, with 5+ years of experience in a wide range of Web Development." />
     <meta property="og:url" content="https://ismailbourbie.com/" />
     <meta property="og:site_name" content="Ismail Bourbie" />
-            <meta property="og:image" content="http://ismailbourbie.com/images/browser.svg" />
+            <meta property="og:image" content="https://ismailbourbie.com/images/picture.webp" />
     
     <meta name="twitter:description" content="A software engineer, with 5+ years of experience in a wide range of Web Development." />
     <meta name="twitter:title" content="Ismail Bourbie" />
     <meta name="twitter:site" content="@IsmailBourbie" />
             <meta name="twitter:card" content="summary" />
-        <meta property="twitter:image" content="http://ismailbourbie.com/images/browser.svg" />
+        <meta property="twitter:image" content="https://ismailbourbie.com/images/picture.webp" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
