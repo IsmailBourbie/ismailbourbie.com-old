@@ -1,6 +1,6 @@
-<nav x-data="{ open: false }" class="absolute w-full">
+<nav x-data="menu()" class="absolute w-full">
     <div class="relative flex justify-between items-center px-6 py-4 z-50">
-        <button class="text-gray-500 w-10 h-10 relative focus:outline-none" @click="open = !open">
+        <button class="text-gray-500 w-10 h-10 relative focus:outline-none" @click="toggleMenu()">
             <span class="sr-only">Open main menu</span>
             <div class="block w-5 absolute left-1/2 top-1/2   transform  -translate-x-1/2 -translate-y-1/2">
                 <span aria-hidden="true" class="block absolute h-0.5 w-5 bg-black transform transition duration-500 ease-in-out" :class="{'rotate-45': open,' -translate-y-1.5': !open }"></span>
@@ -52,3 +52,20 @@
         </div>
     </div>
 </nav>
+<script>
+    function menu() {
+        return {
+            open: false,
+            toggleMenu() {
+                this.open = !this.open;
+                this.toggleBodyScroll();
+            },
+            toggleBodyScroll() {
+                if (this.open)
+                    document.body.style.overflowY = 'hidden';
+                else
+                    document.body.style.overflowY = 'auto';
+            }
+        }
+}
+</script>
