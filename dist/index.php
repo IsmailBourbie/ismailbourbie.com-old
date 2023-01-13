@@ -18,6 +18,7 @@ if (key_exists($uri, $routes)) {
         $title = $routes[$uri]['title'];
         require_once($view);
     }
-} else
+} else {
     $title = "404 - Ismail Bourbie";
     require_once($views_dir . "404.php");
+}
